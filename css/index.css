@@ -1,0 +1,59 @@
+.root{
+    width: 55rem;
+    height: 30rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 1rem;
+    justify-content: space-between;
+
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    border: 1px solid black;
+
+
+}
+
+.titulo{
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.descripccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+
+
+    
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
